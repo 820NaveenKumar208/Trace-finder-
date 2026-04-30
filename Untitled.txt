@@ -1,0 +1,63 @@
+
+
+ProblemStatement:
+High Financial Loss Due to Return Fraud
+Online retailers face significant losses from fake damage claims, reused images, and fraudulent return requests.
+Difficulty in Detecting Fraud at Scale
+Manual verification is slow, inefficient, and not feasible for platforms handling millions of orders daily.
+Balancing Fraud Detection with Customer Experience
+Strict verification can frustrate genuine customers, while lenient policies increase fraud risk.
+
+he cost of blocking a genuine customer is often greater than the cost of a single fraudulent return.
+
+
+Proposed Solution
+Develop an AI-powered real-time fraud detection system for return claims
+Analyze uploaded product images using similarity detection (CLIP model)
+Validate image metadata and detect inconsistencies
+Evaluate user behavior patterns (return frequency, history)
+Generate a Fraud Risk Score (0–100%)
+Provide decision outputs: Auto Approve / Monitor / Manual Review
+🚀 How Our Solution Is Better
+⚡ Real-time detection — instant fraud evaluation without delays
+🧠 AI-driven accuracy — detects reused or manipulated images effectively
+😊 Frictionless experience — no need for video verification or extra steps
+📊 Explainable decisions — shows reasons behind fraud score
+🔧 Scalable design — can integrate into large e-commerce platforms
+💥 Impact Statement
+“Our solution reduces fraudulent return losses, minimizes manual verification effort, and preserves customer trust by enabling real-time, intelligent decision-making.”
+
+Tech Stack
+🖥️ Frontend
+Streamlit
+→ Interactive dashboard UI for real-time fraud analysis
+⚙️ Backend
+Python
+→ Core logic, data processing, and scoring engine
+🧠 AI / Machine Learning
+Hugging Face Transformers (CLIP Model)
+→ Image feature extraction & similarity detection
+🖼️ Image Processing
+Pillow (PIL)
+→ Image handling and metadata (EXIF) analysis
+📊 Data Processing
+NumPy
+→ Efficient numerical computations
+Scikit-learn
+→ Cosine similarity for image comparison
+🗂️ Data Storage
+JSON / Local Dataset
+→ User behavior data & fraud reference images
+🎯 One-Line Summary (Add at bottom)
+
+“A lightweight, scalable AI stack designed for real-time fraud detection with minimal infrastructure.”
+
+Architecture Explanation (Use in PPT)
+🧠 Simple Explanation (Best for speaking)
+
+“Our system follows a modular pipeline where user input is processed through multiple AI layers and combined into a single fraud decision in real time.”
+
+One-Line Explanation (VERY IMPORTANT)
+
+“We convert raw user inputs into intelligent fraud decisions using a modular AI pipeline.”
+

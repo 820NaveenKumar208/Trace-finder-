@@ -1,0 +1,52 @@
+{
+  "USR-001": {
+    "name": "Alice Monroe",
+    "email": "alice.monroe@email.com",
+    "total_orders": 25,
+    "total_returns": 2,
+    "recent_returns": 0,
+    "flagged_incidents": 0,
+    "account_age_days": 720,
+    "avg_order_value": 145.50
+  },
+  "USR-002": {
+    "name": "Bob Kellerman",
+    "email": "b.kellerman@email.com",
+    "total_orders": 18,
+    "total_returns": 8,
+    "recent_returns": 3,
+    "flagged_incidents": 1,
+    "account_age_days": 380,
+    "avg_order_value": 89.00
+  },
+  "USR-003": {
+    "name": "Carol Petersen",
+    "email": "carol.p@webmail.com",
+    "total_orders": 10,
+    "total_returns": 6,
+    "recent_returns": 5,
+    "flagged_incidents": 2,
+    "account_age_days": 95,
+    "avg_order_value": 210.00
+  },
+  "USR-004": {
+    "name": "Daniel Torres",
+    "email": "dtorres@company.org",
+    "total_orders": 30,
+    "total_returns": 1,
+    "recent_returns": 0,
+    "flagged_incidents": 0,
+    "account_age_days": 1100,
+    "avg_order_value": 320.75
+  },
+  "USR-005": {
+    "name": "Eve Sharma",
+    "email": "eve.s@quickmail.io",
+    "total_orders": 12,
+    "total_returns": 9,
+    "recent_returns": 7,
+    "flagged_incidents": 3,
+    "account_age_days": 45,
+    "avg_order_value": 67.25
+  }
+}
